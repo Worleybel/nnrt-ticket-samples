@@ -1,0 +1,5 @@
+211591070 v8_kit.omc
+133238454 v8_fp16mix.omc
+
+# note: omc embeds a timestamp so md5 differs between identical runs; byte SIZE is the valid signal.
+# v8_kit.omc (default) vs std_w16.omc (--weight_data_type=FP16 on same fp32 source): both 211591070 bytes -> flag has no effect.
